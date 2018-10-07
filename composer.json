@@ -1,0 +1,12 @@
+{
+    "require": {
+        "obray/obray": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "m\\": "src/models",
+            "c\\": "src/controllers",
+            "d\\": "src/data"
+        }
+    }
+}
